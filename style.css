@@ -1,0 +1,154 @@
+
+body{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    background-image: url("../img/fondo-2-04.png"), url("../img/fondo-1-03.jpg");
+    background-repeat: no-repeat, repeat-y;
+    background-color:#352A28;
+    background-size: 40%, auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato';
+    color: #FDE3AA;
+}
+
+
+header{
+    margin-bottom: 2rem;
+}
+
+/*   NAVBAR   */
+
+
+nav{
+    position: absolute;
+    right: 10%;
+    margin-bottom: 5rem;
+}
+
+.nav-btn {
+    color: #FDE3AA;
+    padding: 2rem;
+    font-size: 2rem;
+    border-style: none;
+    cursor: pointer;
+    background-color: transparent;
+    border-bottom: 2px solid transparent;
+    transition: transform 0.3s;
+    outline: none;
+
+}
+.nav-btn.active{
+    border-bottom: 2px solid #FC4831;
+}
+.nav-btn:hover{
+    transform: translateY(-10%);
+    color: #FFCF83;
+
+}
+
+/*   HOME   */
+
+.home{
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
+
+.frontPage{
+    color: #FDE3AA;
+}
+
+h1{
+    color: #FC4831;
+    font-size: 5rem;
+    margin: 2rem 0 2.5rem 0;
+    padding: 3rem 0 3rem 0;
+    border-top: solid 2px #FDE3AA;
+    border-bottom: solid 2px #FDE3AA;
+}
+
+.parrafo{
+    font-size: 1.5rem;
+    text-align: right;
+    margin: 0 0 1rem 0;
+}
+
+.btnMenu{
+    margin-top: 2.5rem;
+    background-color: #FDE3AA;
+    color: #FC4831;
+    font-weight: 700;
+    padding: 1rem;
+    font-size: 1rem;
+    border-style: none;
+    cursor: pointer;
+}
+.btnMenu:hover{
+    background-color: #FFCF83;
+    color: #970400;
+}
+
+/*   MENÚ   */
+
+.menu{
+    position: static;
+    margin-top: 9rem;
+    border: solid 3px #FC4831;
+    background-color: rgba(73, 58, 56, 0.9);
+    padding: 4rem 0 2rem 0;
+    width: 660px;
+}
+
+.burgerTittle{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #FC4831;
+}
+.burgerDescription{
+    font-size: 1.2rem;
+}
+.burgerPrecio{
+    font-size: 1.5rem;
+    margin: 0;
+}
+.menuItem{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(53, 42, 40, 0.7);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    width: 400px;
+}
+.menuItem:hover{
+    background-color: rgba(53, 42, 40);
+    cursor: pointer;
+    border: solid 1px #FFCF83;
+}
+
+/*   CONTACT   */
+
+.contact{
+    position: static;
+    margin-top: 9rem;
+    border: solid 3px #FC4831;
+    background-color: rgba(73, 58, 56, 0.9);
+    width: 660px;
+    padding: 3rem 0 3rem 0;
+
+
+}
+.contactData{
+    border-top: solid 2px #FDE3AA;
+    border-bottom: solid 2px #FDE3AA;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+.contactTittle{
+    font-size: 2rem;
+}
+.contactText{
+    font-size: 1.2rem;
+}
